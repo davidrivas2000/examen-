@@ -57,7 +57,7 @@ public class ExamenPilaMapa {
         return false; // id no existe
     }
 
-    // Menú interactivo más "realista"
+    // Menú interactivo
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Map<Integer, Integer> mapa = new HashMap<Integer, Integer>();
@@ -114,3 +114,4 @@ public class ExamenPilaMapa {
         sc.close();
     }
 }
+
