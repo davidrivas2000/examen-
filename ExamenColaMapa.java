@@ -68,7 +68,7 @@ public class ExamenColaMapa {
         return valorActual;
     }
 
-    // Menú interactivo más "realista"
+    // Menú interactivo
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Map<String, Integer> intentos = new HashMap<String, Integer>();
@@ -112,3 +112,4 @@ public class ExamenColaMapa {
         sc.close();
     }
 }
+
